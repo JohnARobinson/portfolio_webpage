@@ -1,0 +1,38 @@
+.gamedevmain{
+    height: 100%;
+}
+.gamedev-intro{
+    text-align: center;
+}
+.projectboxes{
+    background:-moz-linear-gradient(90deg, rgba(53, 59, 230, 1) 0%, rgba(0, 0, 0, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(53, 59, 230, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(53, 59, 230, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#353BE6', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(53, 59, 230, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background:linear-gradient(90deg, rgba(53, 59, 230, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.box{
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    width:300px;
+    height:300px;
+    background-color:white;
+    /*border:1px solid #ff0000;*/
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.box:hover{
+    transform: scale(1.1)
+}
+.offset{
+    margin-left: 200px; 
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+.offset2{
+    height: 50px;
+}

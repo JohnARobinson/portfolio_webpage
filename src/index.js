@@ -13,8 +13,12 @@ import {
     Database,
     Datascience,
     Gamedev,
-    Threedmodel
+    Threedmodel,
+    ML
   } from "./components";
+  import {
+    Footer
+  } from "./containers";
 import App from './App';
 import './index.css'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -33,7 +37,9 @@ ReactDOM.render(
       <Route path="/Datascience" element={<Datascience />}/>
       <Route path="/Gamedev" element={<Gamedev />}/>
       <Route path="/Threedmodel" element={<Threedmodel />}/>
+      <Route path="/ML" element={<ML/>}/>
     </Routes>
+    <Footer />
 </Router>,
    document.getElementById('root')
 

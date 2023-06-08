@@ -14,3 +14,4 @@ export { default as Database } from './database/Database';
 export { default as Datascience } from './datascience/Datascience';
 export { default as Gamedev } from './gamedev/Gamedev';
 export { default as Threedmodel } from './threedmodel/Threedmodel';
+export { default as ML } from './ml/ML';

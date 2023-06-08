@@ -3,9 +3,8 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div>
+    <div class="footerdiv">
         <h3>footer</h3>
-      
     </div>
   )
 }

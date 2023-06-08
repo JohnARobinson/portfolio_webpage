@@ -1,3 +1,6 @@
+Work in progress, to make protfolio webpage using React to display coding projects more aesthetically than extisting webpage. Along with displaying protfolio for game design/3d modeling.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

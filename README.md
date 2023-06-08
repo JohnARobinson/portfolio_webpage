@@ -1,4 +1,4 @@
-Work in progress, to make protfolio webpage using React to display coding projects more aesthetically than extisting webpage. Along with displaying protfolio for game design/3d modeling.
+Work in progress, to make portfolio webpage using React to display coding projects more aesthetically than extisting webpage. Along with displaying protfolio for game design/3d modeling.
 
 
 # Getting Started with Create React App

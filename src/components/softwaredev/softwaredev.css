@@ -1,10 +1,10 @@
-.backmain {
+.sdmain {
   height: 100%;
 }
-.back-intro {
+.sd-intro {
   text-align: center;
 }
-.projectboxesback {
+.projectboxessd {
   background: -moz-linear-gradient(
     90deg,
     rgba(53, 59, 230, 1) 0%,
@@ -47,7 +47,7 @@
 .box:hover {
   transform: scale(1.1);
 }
-.offsetback {
+.offsetsd {
   margin-left: 15%;
   margin-right: 15%;
 }

@@ -5,12 +5,16 @@ const Frontend = () => {
   return (
     <div class="frontmain">
       <div class="front-intro">
-        <h3>Frontend</h3>
+        <h3>Web Development</h3>
         <p>This website</p>
         <p>
           Other 2 resume sites, login webpage, survey website, any other website
         </p>
         <p>Description paragraph, github link</p>
+      </div>
+      <div>
+        <p>Frontend</p>s
+        <p>Backend</p>
       </div>
       <div class="projectboxesfront">
         <div class="offsetfront">

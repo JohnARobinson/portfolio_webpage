@@ -24,10 +24,7 @@ const Navbar = () => {
           </NavLink>
           <div class="Project-Content">
             <NavLink className="nav-link" to="/Frontend">
-              Front-End Development
-            </NavLink>
-            <NavLink className="nav-link" to="/Backend">
-              Back-End Development
+              Web Development
             </NavLink>
             <NavLink className="nav-link" to="/Softwaredev">
               Software Development

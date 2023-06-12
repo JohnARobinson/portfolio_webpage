@@ -8,35 +8,31 @@
   display: flex;
 }
 .projectboxes_gd1 {
-  width: 33%;
+  width: 33.33%;
   background: green;
 }
 .projectboxes_gd2 {
-  width: 33%;
+  width: 33.33%;
   background: red;
 }
 .projectboxes_gd3 {
-  width: 33%;
+  width: 33.33%;
   background: blue;
 }
-.box {
+.box_gd {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  line-height: 250px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: white;
-  /*border:1px solid #ff0000;*/
+  margin: 30px;
+  margin-left: 35px;
 }
-.box:hover {
+.box_gd:hover {
   transform: scale(1.1);
 }
-.offsetgd {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.offset2 {
+set2 {
   height: 50px;
 }
 .gamedev_categories {
@@ -54,6 +50,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.gamedev_category_spec {
-  padding-left: 20%;
+.gamedev_category_spec1 {
+  padding-left: 12.5%;
+  
+}
+.gamedev_category_spec3, .gamedev_category_spec2{
+  padding-left: 26.5%;
+  
 }

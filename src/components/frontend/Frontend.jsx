@@ -13,7 +13,7 @@ const Frontend = () => {
         <p>Description paragraph, github link</p>
       </div>
       <div>
-        <p>Frontend</p>s
+        <p>Frontend</p>
         <p>Backend</p>
       </div>
       <div class="projectboxesfront">
@@ -33,27 +33,27 @@ const Frontend = () => {
           <a class="box5 box" href="">
             Resume Webpage 2
           </a>
-          <a class="box6 box" href="">
-            TBD
-          </a>
-          <a class="box7 box" href="">
-            TBD
-          </a>
-          <a class="box8 box" href="">
-            TBD
-          </a>
-          <a class="box9 box" href="">
-            TBD
-          </a>
-          <a class="box10 box" href="">
-            TBD
-          </a>
-          <a class="box11 box" href="">
-            TBD
-          </a>
-          <a class="box12 box" href="">
-            TBD
-          </a>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
+          <div class="box_c box" href="">
+            <img class="under-construction" src="under-construction.jpg"></img>
+          </div>
         </div>
         <div class="offset2"></div>
       </div>

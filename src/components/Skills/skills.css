@@ -1,4 +1,22 @@
-.skill{
+.skill_box{
     outline: solid;
-    outline-width: 1px;
+    outline-width: 2px;
+    margin: 10px;    
+    padding: 5px;
+
+}
+.skills{
+    display: flex;
+}
+.itm_skills{    
+    margin-left: 2%;
+}
+.begin_skills{
+    margin-left: 2%;
+}
+.IDE_skills{
+    margin-left: 2%;
+}
+.Tls_skills{
+    margin-left: 2%;
 }

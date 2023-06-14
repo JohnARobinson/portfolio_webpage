@@ -29,6 +29,38 @@ const Projects = () => {
             <NavLink className="nav-link" to="/Threedmodel">
               3D Modeling
             </NavLink>
+            <div class="project_boxes">
+              <a class="box_pj" href="">
+              Portfolio Website
+              </a>
+              <a class="box_pj" href="">
+              Login Page with Authentication
+              </a>
+              <a class="box_pj" href="">
+              Survey Questionnaire Webpage
+              </a>
+              <a class="box_pj" href="">
+              Resume Webpage 1
+              </a>
+              <a class="box_pj" href="">
+              Resume Webpage 2
+              </a>
+              <a class="box_pj" href="">
+              Multithreaded Compression Algorithm
+              </a>
+              <a class="box_pj" href="">
+              Emulated Unix Shell
+              </a>
+              <a class="box_pj" href="">
+              More
+              </a>
+              <a class="box_pj" href="">
+              TBD
+              </a>
+              <a class="box_pj" href="">
+              TBD
+              </a>
+            </div>
       
     </div>
   )

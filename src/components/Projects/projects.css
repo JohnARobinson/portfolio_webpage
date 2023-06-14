@@ -5,3 +5,23 @@
 .nav-link{
     margin-left: 130px;
 }
+.nav-link:hover{
+    text-decoration: underline;
+}
+.box_pj{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    /*border:1px solid #ff0000;*/
+
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: auto;
+  width: 10%;
+}
+.box_pj:hover {
+    transform: scale(1.1);
+  }

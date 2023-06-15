@@ -1,9 +1,53 @@
+.skills_main{
+    min-height: 80vh;
+    width: 100%;
+}
+.skills_title{
+    text-align: center;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.skills_desc{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
 .skill_box{
     outline: solid;
     outline-width: 2px;
     margin: 10px;    
     padding: 5px;
 
+    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(216, 243, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(216, 243, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    background:-o-radial-gradient(ellipse at 50% 50%, rgba(216, 243, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(216, 243, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+    background:radial-gradient(ellipse at 50% 50%, rgba(216, 243, 255, 1) 75%, rgba(0, 0, 0, 1) 100%);
+}
+.skills_header{
+    display: flex;
+    height: 50px;
+}
+.skill_header_item{
+    font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+.skill_header_item_PL{
+    margin-left: 8%;
+    line-height: 50px;
+}
+.skill_header_item_IDE{
+    margin-left: 13%;
+    line-height: 50px;
+}
+.skill_header_item_Tools{
+    margin-left: 6.5%;
+    line-height: 50px;
 }
 .skills{
     display: flex;
@@ -19,4 +63,14 @@
 }
 .Tls_skills{
     margin-left: 2%;
+}
+.blank_offset_skills{
+    height: 20vh;
+}
+
+.cs2img{
+    height: 600px;
+    width: 850px;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }

@@ -4,10 +4,17 @@ import './skills.css';
 const Skills = () => {
   return (
     <div class="skills_main">
-        <h3>Skills</h3>
-        <p>•	Strong command of OOP, SOLID, Design Patterns, Agile Development Cycle</p>
+      <div>
+        <p class="skills_title">Skills</p>
+        <p class="skills_desc">List of my skills in Web Development and Software Development. Each skill is assosiated with a level of skill. Protraying appitutde and experience with said skill. In addition to programming languages skills relating to Data Science, Machine Learning, Game Development, Asset Creation, Video Editing, and 3D Modeling. 
+        Strong command of OOP, SOLID, Design Patterns, Agile Development Cycle</p>
+      </div>
+        <div class="skills_header">
+        <p class="skill_header_item skill_header_item_PL">Programming Languages</p>
+        <p class="skill_header_item skill_header_item_IDE">IDE's</p>
+        <p class="skill_header_item skill_header_item_Tools">Tools's</p>
+        </div>
       <div class="skills">
-        <p>Programming Languages</p>
         <div class="adv_skills">
           <div class="skill_box">
             <p>Java: Advanced</p>
@@ -77,8 +84,6 @@ const Skills = () => {
             <p>Sass: Beginner</p>
           </div>
         </div>
-
-        <p>IDE's</p>
         <div class="IDE_skills">
           <div class="skill_box">
             <p>Eclipse</p>
@@ -101,9 +106,11 @@ const Skills = () => {
           <div class="skill_box">
             <p>MySQL</p>
           </div>
+          <div class="blank_offset_skills">
+
+          </div>
         </div>
 
-        <p>Tools's</p>
         <div class="Tls_skills">
           <div class="skill_box">
             <p>Unity</p>
@@ -133,6 +140,8 @@ const Skills = () => {
             <p>XAMPP</p>
           </div>
         </div>
+
+        <img class="cs2img" src="cs2.jpg"></img>
       </div>
 
       

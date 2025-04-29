@@ -1,11 +1,13 @@
 import React from 'react';
 import './home.css';
 
-document.body.style.backgroundColor = "white";
+//document.body.style.backgroundColor = "white";
 const Home = () => {
   return (
       <div class="main">
+
         <div class="introduction_name">
+        
           <p>John Robinson</p>
         </div>
         <div class="introduction_desc">

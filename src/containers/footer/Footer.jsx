@@ -5,27 +5,23 @@ const Footer = () => {
   return (
 
     <div class="footerdiv">
-      <div class="footer-mandiv">
-        <br></br>
+      
+      <div class="footer-menu">
+        <ul>
+          <li>Contact Me</li>
+          <li>240-812-2370</li>
+          <li>jrobinson843@gmail.com</li>
+        </ul>
       </div>
-      <div class = "footer_contact">
-        <p class = "footer_email">I would love to hear from you.</p>
-        <p class = "footer_email">Email Me:</p>
-        <form action="mailto:jrobinson843@gmail.com" method="GET">
-          <div>
-            <input type="text" placeholder="Subject" name="subject" class="subject" required />
-          </div>
-          <div>
-            <textarea placeholder="Your message" name="body" class="message"required></textarea>
-          </div>
-          <div>
-          <button class="email_button" type="submit">Send Email</button>
-          </div>
-        </form>
+
+      <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/john-robinson-357186125"><img class="linkedIn_img" src="../../assets/LinkedIn_Icon2.png" alt="https://www.linkedin.com"></img></a>
       </div>
-      <div>
+
+      <div class="footer_Owner">
+        <p class = "footer_Owner_Text">Webpage of John Robinson</p>
       </div>
-      <p class = "footer_extra_text">Webpage of John Robinson</p>
+      
     </div>
   )
 }

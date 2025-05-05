@@ -4,41 +4,15 @@
     height: auto; 
     margin-top: auto;
     width: 100%;
+    overflow: auto;
+    
 }
 .footer-menu
 {
-    margin-left: 5px;
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer-socials{
-    margin-left: 5px;
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer_Owner{
-    margin-left: 5px;
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.email_button{
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 10%;
-}
-.message{
-    margin-top: 5px;
-    width: 300px;
-    height: 80px;
-}
-.footer_extra_text{
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3vh;
+    padding-top: 2vh;
+    width: 40%;
+    float: left;
 }
 
 .linkedIn_img
@@ -46,3 +20,30 @@
     height: 50px;
     width: 50px;
 }
+ul {
+    list-style: none;
+  }
+
+  li{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .footer_Owner{
+    float: right;
+    padding-top: 15vh;
+    padding-right: 2vh;
+  }
+
+  .footer_Owner_Text{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

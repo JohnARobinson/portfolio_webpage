@@ -5,28 +5,51 @@
     scroll-behavior: smooth;
     
 }
-.introduction_name{
+.top_offset{
+    height: 8vh;
+}
+.introduction_overlay{
     text-align: center;
-    /*margin-top: 50px;
-    background: lightblue;*/
+    height: 50vh;
+    width:80%;
+    z-index:2;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    position:absolute;
+    left:10%;
+}
+.introduction{
+    text-align: center;
+    height: 50vh;
+    width:80%;
+    z-index:3;
+    position: relative;
+    left:10%;
+    
+}
+
+.MyImage{
+    padding-left: 5rem;
+    padding-top: 1rem;
+    height: 30vh;
+    width: 37vh;
+
+}
+.intro_Image_div{
+    height: 40%;
+    width: 40%;
+}
+.intro_Text{
     font-size: 42px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.introduction_desc{
-    font-size: 16px;
-    text-align: center;
-    /*background: lightblue;*/
-}
-.introduction_text{
-    text-align: center;
-    /*background: lightblue;*/
-    height: 150px;
-}
+
+
 .main{
     /*height: 55.5vh;*/
     height: 80vh;
     background-image: url("../../assets/Main_Background2.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     background-size: 100% 100%;
 }
